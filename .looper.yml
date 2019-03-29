@@ -1,3 +1,7 @@
+branches:
+- spec: master
+- spec: pr-1
+  call: default
 tools:
   jdk:
     - 8
