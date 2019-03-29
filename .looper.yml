@@ -10,4 +10,7 @@ flows:
     - |
       FILES=$(ls -l /tmp)
       echo $FILES
+      
+  pr:
+    - call: default
 
