@@ -1,7 +1,6 @@
 branches:
-- spec: master
-- spec: pr-1
   call: default
+  
 tools:
   jdk:
     - 8
@@ -11,10 +10,6 @@ flows:
     - echo "Hello Looper!"
     - java -version
     - echo "JAVA_HOME=$JAVA_HOME"
-    - |
-      FILES=$(ls -l /tmp)
-      echo $FILES
-      
   pr:
     - call: default
 
